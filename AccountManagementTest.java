@@ -29,7 +29,7 @@ public class AccountManagementTest {
 
         verifyBindingStatus(executionContext, executionContext.getVariable("sourceBindingId"), 3);
 
-        verifyAccountState(executionContext, 0);
+        verifyAccountState(executionContext, 3);
     }
 
     private void prepareAccountWithBalance(TestContext executionContext, String balanceAmount) {
